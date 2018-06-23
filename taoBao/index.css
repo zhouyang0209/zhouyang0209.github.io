@@ -270,7 +270,7 @@ html,body{
     vertical-align:middle;
     height:90px;
     width:76px;
-    border:1px solid #eee;
+    /* border:1px solid #eee; */
     position:relative;
     margin-left:120px;
 }
@@ -296,7 +296,7 @@ html,body{
     top:0px;
     height:14px;
     width:14px;
-    border:1px solid #eee;
+    /* border:1px solid #eee; */
     left:-16px;
     line-height:14px;
     text-align:center;
@@ -349,3 +349,210 @@ html,body{
 /* 中间导航条结束 */
 
 /* screenbox开始 */
+.wrapper .screen-box-wrap{
+    width: 1190px;
+    margin:0 auto;
+    /* border:1px solid #000; */
+    height:632px;
+}
+.wrapper .screen-box-wrap .main{
+    width: 890px;
+    height: 632px;
+    /* border: 1px solid #000; */
+    float: left;
+}
+/* 把main-inner 变成inline-block，就可以让col-middle放在和他一行了 */
+.wrapper .screen-box-wrap .main .main-inner{
+    width: 720px;
+    height: 522px;
+    /* border: 1px solid #000; */
+    display: inline-block;
+    vertical-align: top;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-left{
+    height: 522px;
+    width: 190px;
+    background-color: #fff;
+    float:left;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-left ul{
+    border:1px solid #ff5000;
+    border-top:none;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-left ul li{
+    height:32px;
+    width:144px;
+    line-height: 32px;
+    font-weight: 400px;
+    padding-left: 25px;
+    padding-right: 19px;
+    position: relative;
+    color:#666;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-left ul li a{
+    color: #666;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-left ul li:hover a{
+    color:#ff5000;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-left ul li:hover{
+    background-color:#ffeee5;
+    color:#ff5000;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-left ul li span{
+    position:absolute;
+    display: inline-block;
+    right:10px;
+    height:20px;
+    width: 20px;
+    background-image: url('img/yjb.jpg');
+    /* top居中 */
+    top:50%;
+    margin-top:-15px;
+}
+
+.wrapper .screen-box-wrap .main .main-inner .inner-con{
+    width: 520px;
+    height: 512px;
+    float: left;
+    margin-left:10px;
+    margin-top:10px;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-con .pic-box{
+    position: relative;
+    width:520;
+    height:280;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-con .pic-box ul{
+    position: absolute;
+    bottom:15px;
+    left:50%;
+    margin-left:-35px;
+    /* width:70px; */
+    height:13px;
+    background-color: rgba(255, 255, 255, 3);
+    border-radius: 10px;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-con .pic-box ul li{
+    float: left;
+    margin:3px;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-con .pic-box ul li a{
+    display: block;
+    width:8px;
+    height: 0;
+    padding-top:8px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-con .pic-box ul li .selected{
+    background-color: #ff5000
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-con .pic-box ul li a:hover{
+    background-color: #ff5000;
+    cursor: pointer;
+}
+
+.wrapper .screen-box-wrap .main .main-inner .inner-mall{
+    width:520px;
+    height:230px;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-mall img{
+    width:257px;
+    height:200px;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-mall .head{
+    width:520px;
+    height:22px;
+    border-bottom:3px solid #ff1648;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-mall .head .tm-pic{
+    display:inline-block;
+    height:20px;
+    width:136px;
+    background-image: url('img/tm.png');
+    background-size: 100% 100%;
+}
+.wrapper .screen-box-wrap .main .main-inner .inner-mall .head .tm{
+    color:#666;
+    font-size: 12px;
+}
+/* 把.col-middle变成inline-block 就可以放在后面了 */
+.wrapper .screen-box-wrap .main .col-middle{
+    width: 160px;
+    height:512px;
+    margin-top:10px;
+    /* border: 1px solid #000; */
+    vertical-align: top;
+    display: inline-block;
+}
+.wrapper .screen-box-wrap .main .col-middle h5{
+    color:#a1a1a1;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.wrapper .screen-box-wrap .main .col-middle img{
+    display: inline-block;
+    height:238px;
+    width:160px;
+}
+.wrapper .screen-box-wrap .main .main-bottom{
+    width:888px;
+    height:100px;
+}
+.wrapper .screen-box-wrap .main .main-bottom .bottom-con{
+    position: relative;
+    margin-top:10px;
+    height:73px;
+    padding:14px 14px 12px 20px;
+    background-color: #fff;
+}
+.wrapper .screen-box-wrap .main .main-bottom .bottom-con .logo{
+    float:left;
+}
+.wrapper .screen-box-wrap .main .main-bottom .bottom-con .tbtt-con{
+    width:675px;
+    height:73px;
+    position: absolute;
+    left:200px;
+}
+/* 设置浮动 让文字环绕图片 */
+.wrapper .screen-box-wrap .main .main-bottom .bottom-con .tbtt-con img{
+    float: left;
+    width:130px;
+    height:73px;
+}
+.wrapper .screen-box-wrap .main .main-bottom .bottom-con .tbtt-con h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color:#333;
+    margin-top: 2px;
+    margin-left: 144px;
+}
+.wrapper .screen-box-wrap .main .main-bottom .bottom-con .tbtt-con h4:hover{
+    color:#ff5000;
+}
+.wrapper .screen-box-wrap .main .main-bottom .bottom-con .tbtt-con p{
+    color:#999;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 14px;
+    margin-left: 144px;
+}
+
+.wrapper .screen-box-wrap .col-right{
+    width:290px;
+    height: 632px;
+    background-color: red;
+    opacity: 0.5;
+    /* border-left: 1px solid #000; */
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
