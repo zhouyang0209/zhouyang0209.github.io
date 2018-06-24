@@ -346,6 +346,11 @@ html,body{
     text-align:center;
     line-height: 30px;
 }
+.wrapper .screen-nav-con ul li:hover{
+    background-color: #ff5000;
+    border-radius: 9px;
+    overflow: hidden;
+}
 /* 中间导航条结束 */
 
 /* screenbox开始 */
