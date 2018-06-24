@@ -774,6 +774,8 @@ html,body{
     height:110px;
     /* border: 1px solid #000; */
 }
+
+/* 这里使用relative 让.more相对 h3定位 */
 .wrapper .screen-box-wrap .col-right .app .apps h3{
     color: #3c3c3c;
     font-size: 14px;
@@ -783,6 +785,7 @@ html,body{
     position: relative;
     z-index: 2;
 }
+/* 这里absolute 相对h3定位 */
 .wrapper .screen-box-wrap .col-right .app .apps .more{
     position: absolute;
     right: 10px;
