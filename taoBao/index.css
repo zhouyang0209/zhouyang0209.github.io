@@ -549,10 +549,258 @@ html,body{
 .wrapper .screen-box-wrap .col-right{
     width:290px;
     height: 632px;
-    background-color: red;
-    opacity: 0.5;
     /* border-left: 1px solid #000; */
     float:left;
     margin-left: 10px;
     margin-top: 10px;
+    background-color: #fff;
+}
+.wrapper .screen-box-wrap .col-right .member{
+    width:290px;
+    height:132px;
+    padding: 3px 0 10px 0;
+    background: url('img/bg.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+.wrapper .screen-box-wrap .col-right .member .member-bd{
+    width:290px;
+    height:91px;
+    /* border-bottom: 1px solid #000; */
+    
+}
+.wrapper .screen-box-wrap .col-right .member .member-bd .tx{
+    width:290px;
+    text-align: center;
+    height:56px;
+}
+
+.wrapper .screen-box-wrap .col-right .member .member-bd .tx a{
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.wrapper .screen-box-wrap .col-right .member-bd .tx img{
+    border-radius: 50%;
+}
+.wrapper .screen-box-wrap .col-right .member-bd .hello{
+    display:block;
+    height:17px;
+    line-height: 17px;
+    text-align: center;
+    color:#333; 
+    font-size: 12px;
+}
+.wrapper .screen-box-wrap .col-right .member-bd p{
+    width:290px;
+    height:17px;
+    line-height: 17px;
+    text-align: center;
+}
+.wrapper .screen-box-wrap .col-right .member-bd .icon,
+.wrapper .screen-box-wrap .col-right .member-bd .club{
+    display: inline-block;
+    height:17px;
+    position: relative;
+    color:#ff5000;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 10px 0 20px;
+    background: #ffe4db;
+    border-radius: 9px;
+}
+
+.wrapper .screen-box-wrap .col-right .member-bd .pic1{
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+    vertical-align: middle;
+    position: absolute;
+    top:-2px;
+    left:0px;
+    background: url('img/tjblq.png');
+}
+.wrapper .screen-box-wrap .col-right .member-bd .pic2{
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+    vertical-align: middle;
+    position: absolute;
+    top:-2px;
+    left:0px;
+    background: url('img/hyjlb.png');
+}
+
+.wrapper .screen-box-wrap .col-right .member .member-ft{
+    width:290px;
+    height:40px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.wrapper .screen-box-wrap .col-right .member .member-ft a{
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    font-size: 14px;
+    text-align: center;
+    color:#fff;
+    background: linear-gradient(to right,#ff5000 0,#ff6f06 100%);
+    line-height: 25px;
+    font-weight: 700px;
+    border-radius: 4px;
+    margin-right: 7px;
+}
+.wrapper .screen-box-wrap .col-right .member .member-ft .login{
+    width:92px;
+}
+
+.wrapper .screen-box-wrap .col-right .message{
+    width:290px;
+    height: 26px;
+    background: #ffe4db;
+}
+.wrapper .screen-box-wrap .col-right .message a{
+    color:#ff5000;
+    line-height: 26px;
+    position: relative;
+    padding-left: 82px;
+    font-size: 12px;
+}
+
+/* css画三角形 !!!!!!!!!!!!!*/
+.wrapper .screen-box-wrap .col-right .message a span{
+    position: absolute;
+    top:5px;
+    right:-40px;
+    width:0;
+    height:0;
+    border-style: solid;
+    margin-left: 32px;
+    border-width:5px 0 5px 7px;
+    border-color: transparent transparent transparent #f40;
+}
+.wrapper .screen-box-wrap .col-right .notice{
+    height: 98px;
+    width:290px;
+    padding-top: 10px;
+    /* border-bottom:1px solid #000; */
+}
+
+.wrapper .screen-box-wrap .col-right .notice li{
+    float: left;
+}
+
+/*
+ *  title 没有了宽和高？？？？?? 
+ */
+.wrapper .screen-box-wrap .col-right .notice .title{
+    display: block;
+    width: 290px;   
+    height: 24px;
+    margin-top: 4px;
+    padding: 0 8px;
+    /* border-bottom: 1px solid #000; */
+}
+.wrapper .screen-box-wrap .col-right .notice .title li{
+    width:33px;
+    line-height:20px ;
+    margin:0 11px;
+    text-align: center;
+}
+
+.wrapper .screen-box-wrap .col-right .notice .title li a{
+    color: #3c3c3c;
+    font-size: 14px;
+}
+.wrapper .screen-box-wrap .col-right .notice .title li .selected{
+    font-weight: 700px;
+    border-bottom: 2px solid #f40;
+}
+.wrapper .screen-box-wrap .col-right .notice .con li{
+    height: 25px;
+    width:130px;
+    line-height: 25px;
+    overflow: hidden;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.wrapper .screen-box-wrap .col-right .notice .con li a{
+    color:#3c3c3c;
+    font-size: 10px;
+}
+.wrapper .screen-box-wrap .col-right .notice .con li .selected{
+    color:#ff5000;
+}
+.wrapper .screen-box-wrap .col-right .notice li a:hover{
+    color:#ff5000;
+}
+.wrapper .screen-box-wrap .col-right .moudle{
+    height: 232px;
+    width:290px;
+    border-top: 1px solid #f4f4f4;
+}
+.wrapper .screen-box-wrap .col-right .moudle li{
+    float: left;
+    width:71px;
+    height:75px;
+    border-right: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+.wrapper .screen-box-wrap .col-right .moudle li a{
+    display: block;
+    text-align: center;
+}
+
+/* 此处的图片暂未编辑！!!!!!!!!!!!!! */
+.wrapper .screen-box-wrap .col-right .moudle li a span{
+    display: inline-block;
+    width: 24px;
+    height:24px;
+    background: url('');
+}
+.wrapper .screen-box-wrap .col-right .moudle li a p{
+    color:#3c3c3c;
+    font-size: 12px;
+    line-height: 12px;
+}
+.wrapper .screen-box-wrap .col-right .moudle li a:hover p{
+    color:#ff5000;
+}
+
+/* app */
+.wrapper .screen-box-wrap .col-right .app{
+    width:290px;
+    height:110px;
+    /* border: 1px solid #000; */
+}
+.wrapper .screen-box-wrap .col-right .app .apps h3{
+    color: #3c3c3c;
+    font-size: 14px;
+    padding-left: 14px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+}
+.wrapper .screen-box-wrap .col-right .app .apps .more{
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.wrapper .screen-box-wrap .col-right .app .apps .more:hover{
+    color:#f40;
+}
+.wrapper .screen-box-wrap .col-right .app .apps li{
+    position: relative;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin:5px 15px 2px 10px;
+}
+.wrapper .screen-box-wrap .col-right .app .apps li img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }
