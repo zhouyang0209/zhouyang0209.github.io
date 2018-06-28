@@ -431,7 +431,6 @@ nav a:hover::before {
 	margin-bottom: 20px;
 	margin-top: 0px;
 }
-
 .second-content p {
 	font-size: 13px;
 	color: #fff;
@@ -445,7 +444,14 @@ nav a:hover::before {
 	color: #fff;
 	text-decoration: underline;
 }
-
+.left-content h3,
+.left-content span{
+	color: #fff;
+}
+.left-content p{
+	font-size: 16px;
+	text-indent: 2em;	
+}
 .second-content .main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
@@ -642,7 +648,7 @@ nav a:hover::before {
   line-height: 40px;
   height: 40px;
   width: 100%;
-  margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .fifth-content textarea {
