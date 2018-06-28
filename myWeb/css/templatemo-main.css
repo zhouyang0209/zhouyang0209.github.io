@@ -3,7 +3,7 @@
   50% {
     opacity: 1;
   }
-  
+
   100% {
     opacity: 0;
   }
@@ -450,7 +450,7 @@ nav a:hover::before {
 }
 .left-content p{
 	font-size: 16px;
-	text-indent: 2em;	
+	text-indent: 2em;
 }
 .second-content .main-btn a {
 	display: inline-block;
