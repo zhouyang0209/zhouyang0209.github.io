@@ -1,0 +1,28 @@
+/* 覆盖main.css的部分内容 */
+#banner{
+    height: 300px;
+}
+h1{
+    border: none;
+}
+#banner .inner{
+    top: 30px;
+}
+.content{
+    background: #e7dcdc;
+}
+.content-wrapper{
+    width: 1080px;
+    margin: 0 auto;
+    
+}
+article{
+    line-height: 3;
+    text-indent: 2em;
+    padding:10px 0;
+}
+.article-info{
+    font-size: 14px;
+    color: #888;
+    padding: 20px 0;
+}
